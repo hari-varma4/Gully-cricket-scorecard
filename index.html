@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/09932d9ee5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <div id="section2">
+        <div class="bgimage d-flex flex-column  justify-content-end">
+            <div class="mycard">
+                <h1 class="heading">GULLY CRICKET,big dreams in small spaces..</h1>
+                <p class="para">"Run by run, wicket by wicket: The live cricket scorecard tells the tale"</p>
+                <button class="butt" onclick="display('section1')">Get Board <span><i class="fa-solid fa-arrow-trend-up fa-beat-fade" style="color: #5be411;"></i></span></button>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <div id="section1">
+        <div class="bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="bb">
+                            <h1 class="h">ADD YOUR SCORES HERE!!! <span><i class="fa-solid fa-pencil fa-bounce"></i></span></h1>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-8 col-md-8 col-lg-6 col-xl-6 ">
+                        <div class="shadow card mt-5 text-center">
+                            <h1 class="hh">SCORE OF TEAM 1</h1>
+
+                            <div class="detais">
+                                <h1 class="run">RUNS: <span id="ru">0</span>/<span id="w">0</span></h1>
+                            </div>
+                            <div class="d-flex flex-column justify-content-center text-center">
+                                <div class="d-flex flex-row justify-content-center">
+                                    <div class="d-flex flex-row ml-2">
+                                        <span><i class="fa-solid fa-1 fa-beat o"></i></span>
+                                        <button id="1" class="btn btn-secondary ml-2 ">+1</button>
+                                    </div>
+                                    <div class="d-flex flex-row ml-2 justify-content-center">
+                                        <span><i class="fa-solid fa-2 fa-shake o" style="color: #6d9334;"></i></span>
+                                        <button id="2" class="btn btn-secondary ml-2 ">+2</button>
+                                    </div>
+                                    <div class="d-flex flex-row ml-2">
+                                        <span><i class="fa-solid fa-3 fa-flip o" style="color: #1837b4;"></i></span>
+                                        <button id="3" class="btn btn-secondary ml-2 ">+3</button>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row mt-5 justify-content-center">
+                                    <div class="d-flex flex-row ml-2">
+                                        <span><svg xmlns="http://www.w3.org/2000/svg" width="38" height="30" fill="currentColor" class="bi bi-4-circle-fill" viewBox="0 0 16 16">
+                                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM7.519 5.057c-.886 1.418-1.772 2.838-2.542 4.265v1.12H8.85V12h1.26v-1.559h1.007V9.334H10.11V4.002H8.176c-.218.352-.438.703-.657 1.055ZM6.225 9.281v.053H8.85V5.063h-.065c-.867 1.33-1.787 2.806-2.56 4.218Z" />
+                                            </svg></span><button id="4" class="btn btn-primary ml-1 bbb">+4</button>
+                                    </div>
+                                    <div class="d-flex flex-row ml-2">
+                                        <span><i class="fa-solid fa-6 fa-bounce oo" style="color: #74d624;"></i></span>
+                                        <button id="6" class="btn btn-success mt-0 bbb ">+6</button>
+                                    </div>
+                                    <div class="d-flex flex-row ml-2">
+                                        <span><i class="fa-solid fa-w fa-flip oo" style="color: #db0a0a;"></i></span>
+                                        <button id="ou" class="btn btn-danger mt-0 bbb bbbb ">OUT</button>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-4 col-md-4 col-lg-6 col-xl-6 ">
+                        <img class="im" src="https://cdn.pixabay.com/photo/2020/06/28/10/56/cricket-5348883_1280.jpg">
+
+                    </div>
+
+                    <div class="col-12 mt-2">
+                        <marquee class="T">Gully cricket: Small pitch, big thrills.</marquee>
+                    </div>
+                    <div class="col-12 col-sm-4 col-md-4 col-lg-6 col-xl-6 ">
+                        <img class="im" src="https://e0.pxfuel.com/wallpapers/239/800/desktop-wallpaper-cricket-gully-cricket-logo-teahub-io-children-playing.jpg">
+
+                    </div>
+                    <div class="col-12 col-sm-8 col-md-8 col-lg-6 col-xl-6 ">
+                        <div class="shadow card mt-5 text-center">
+                            <h1 class="hh">SCORE OF TEAM 2</h1>
+
+                            <div class="detais">
+                                <h1 class="run">RUNS: <span id="run">0</span>/<span id="ww">0</span></h1>
+                            </div>
+                            <div class="d-flex flex-column justify-content-center">
+                                <div class="d-flex flex-row justify-content-center">
+                                    <div class="d-flex flex-row ml-2">
+                                        <span><i class="fa-solid fa-1 fa-beat o"></i></span>
+                                        <button id="11" class="btn btn-secondary ml-2 ">+1</button>
+                                    </div>
+                                    <div class="d-flex flex-row ml-2">
+                                        <span><i class="fa-solid fa-2 fa-shake o" style="color: #6d9334;"></i></span>
+                                        <button id="22" class="btn btn-secondary ml-2 ">+2</button>
+                                    </div>
+                                    <div class="d-flex flex-row ml-2">
+                                        <span><i class="fa-solid fa-3 fa-flip o" style="color: #1837b4;"></i></span>
+                                        <button id="33" class="btn btn-secondary ml-2 ">+3</button>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row mt-5 justify-content-center">
+                                    <div class="d-flex flex-row ml-2">
+                                        <span><svg xmlns="http://www.w3.org/2000/svg" width="38" height="30" fill="currentColor" class="bi bi-4-circle-fill" viewBox="0 0 16 16">
+                                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM7.519 5.057c-.886 1.418-1.772 2.838-2.542 4.265v1.12H8.85V12h1.26v-1.559h1.007V9.334H10.11V4.002H8.176c-.218.352-.438.703-.657 1.055ZM6.225 9.281v.053H8.85V5.063h-.065c-.867 1.33-1.787 2.806-2.56 4.218Z" />
+                                            </svg></span><button id="44" class="btn btn-primary ml-1 bbb">+4</button>
+                                    </div>
+                                    <div class="d-flex flex-row ml-2">
+                                        <span><i class="fa-solid fa-6 fa-bounce oo" style="color: #74d624;"></i></span>
+                                        <button id="66" class="btn btn-success mt-0 bbb ">+6</button>
+                                    </div>
+                                    <div class="d-flex flex-row ml-2">
+                                        <span><i class="fa-solid fa-w fa-flip oo" style="color: #db0a0a;"></i></span>
+                                        <button id="out" class="btn btn-danger mt-0 bbb bbbb ">OUT</button>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-2 ml-3 text-center ">
+                        <button id="lu" class="re" data-toggle="modal" data-target="#exampleModal">GET RESULTS!!! <span> <i class="fa-solid fa-arrow-right-to-bracket fa-beat-fade" style="color: #57db1f;"></i></span></button>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog mt-5">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title thanking-customers-section-modal-title" id="exampleModalLabel">
+
+                                        </h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                            Close
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="c.js"></script>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
